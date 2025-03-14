@@ -3,14 +3,20 @@ const email = ref<string>('')
 </script>
 
 <template>
+  <van-grid>
+    <van-grid-item icon="photo-o" text="文字" dot />
+    <van-grid-item icon="photo-o" text="文字" />
+    <van-grid-item icon="photo-o" text="文字" />
+    <van-grid-item icon="photo-o" text="文字" />
+  </van-grid>
+
   <van-row align="center">
     <van-col span="12" class="h-100 bg-red text-center leading-100">
       S
     </van-col>
-    <van-col span="12" class="h-50 items-center bg-blue !flex">
-      <div class="w-full translate-x-[-10%] text-right">
-        QD<br>
-        QD
+    <van-col span="12" class="h-50 bg-blue">
+      <div class="v-center text-center">
+        QD<br>QD
       </div>
     </van-col>
   </van-row>
@@ -31,7 +37,7 @@ const email = ref<string>('')
 
       <van-row class="h-25 leading-25">
         <van-col span="12" class="bg-red">
-          d1
+          d11111
         </van-col>
         <van-col span="12" class="bg-coolGray">
           d2
